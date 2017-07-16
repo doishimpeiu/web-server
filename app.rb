@@ -1,6 +1,6 @@
 require"sinatra"
 
 get'/'do
-   'hello world'
-
+   @sum = 1 + 1
+   erb :index
 end
